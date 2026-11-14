@@ -1,0 +1,23 @@
+STOCKVISION 3D - INICIO RAPIDO
+
+1. Supabase > SQL Editor: ejecutar database/01_schema_and_seed.sql.
+2. Copiar backend/.env.example como backend/.env y completar:
+   DATABASE_URL, SUPABASE_URL, SUPABASE_ANON_KEY.
+3. Terminal 1:
+   cd backend
+   py -3.11 -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
+   uvicorn app.main:app --reload
+4. Copiar frontend/.env.example como frontend/.env y completar
+   VITE_SUPABASE_URL y VITE_SUPABASE_ANON_KEY.
+5. Terminal 2:
+   cd frontend
+   npm install
+   npm run dev
+6. Registrarse en la aplicación.
+7. En Supabase SQL Editor ejecutar database/02_promote_first_admin.sql
+   después de sustituir el correo.
+8. Cerrar sesión y volver a entrar.
+
+No compartas archivos .env ni claves privadas. Lee README.md completo.

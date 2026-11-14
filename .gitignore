@@ -1,0 +1,49 @@
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Entornos virtuales Python
+.venv/
+venv/
+**/.venv/
+**/venv/
+
+# Dependencias Node.js
+node_modules/
+**/node_modules/
+
+# Archivos temporales Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de pruebas y caché
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Compilaciones
+dist/
+build/
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editores
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de Git

@@ -1,0 +1,18 @@
+STOCKVISION 3D - ESTADO DE VALIDACION DE LA ENTREGA
+
+Comprobaciones estáticas realizadas:
+- Sintaxis Python: 14 módulos compilados sin errores.
+- Sintaxis JSX: 15 archivos transpilados para validación sintáctica sin diagnósticos.
+- JavaScript de configuración y cliente: node --check satisfactorio.
+- package.json y vercel.json: JSON válido.
+- Importaciones relativas del Frontend: rutas locales verificadas.
+- Script SQL: bloques dollar-quote balanceados; migración, triggers y restricciones presentes.
+
+Comprobaciones que quedan para tu entorno:
+- npm install y npm run build con conexión al registro de paquetes.
+- Instalación de requirements.txt en tu equipo/servidor.
+- Ejecución de database/01_schema_and_seed.sql en tu proyecto Supabase real.
+- Pruebas de inicio de sesión, roles, movimientos y conexión en vivo.
+- Despliegue real en Render y Vercel.
+
+No se incluyeron credenciales ni archivos .env reales. La aplicación no está conectada automáticamente a tu cuenta Supabase.
