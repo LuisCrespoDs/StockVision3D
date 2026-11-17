@@ -16,7 +16,7 @@ services:
       - key: SUPABASE_ANON_KEY
         sync: false
       - key: CORS_ORIGINS
-        sync: "https://stock-vision3-d.vercel.app"
+        value: "https://stock-vision3-d.vercel.app"
       - key: APP_ENV
         value: production
 
